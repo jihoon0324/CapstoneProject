@@ -8,6 +8,22 @@ and open the template in the editor.
     Author     : 832552
 */
 
+.bg-img {
+  background-image: url("img/img01.jpg");
+  margin-top: 20px;
+  min-height: 100px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-img-h1{
+    text-align: center;
+    font-size: 40px;
+    line-height: 230%;
+}
 
 .top_acount_nav {
 position: relative;
