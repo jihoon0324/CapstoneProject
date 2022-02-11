@@ -53,6 +53,7 @@
             <div class="bg-img-h1">
                 <p>BOOK AN APPOINTMENT</p>
                 <p>BOOK AN APPOINTMENT</p>
+                <p>BOOK AN APPOINTMENT</p>
             </div>
         </div>
             
