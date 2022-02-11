@@ -48,11 +48,11 @@
                 </nav>
              
             </div>
-           <div class="current_location">
-               <img id="current_image_backg" src="img/logo.png" >
-              <div class="centerText">BOOK AN APPOINTMENT</div> 
-               
-           </div>
+           <div class="bg-img">
+            <div class="bg-img-h1">
+                <p>BOOK AN APPOINTMENT</p>
+            </div>
+        </div>
             
             
             
