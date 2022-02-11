@@ -45,6 +45,7 @@
                     
                       <a href="">Mange account</a> |
                        <a href="">Log out</a>  
+                        <a href="">Log out</a>  
                 </nav>
              
             </div>
