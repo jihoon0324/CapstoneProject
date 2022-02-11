@@ -30,9 +30,6 @@
                 <br>
                 <a id="forget_pwd" href=""> Forgot your password?</a>
                 <br/>
-
-
-
             </form>
             <span>Need an account?</span>
             <a id="sign_up" href="signup">Sign up</a>
