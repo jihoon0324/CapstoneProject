@@ -6,7 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
         <style><%@include file="/WEB-INF/styleWelcomePage.css"%></style>
         <style><%@include file="/WEB-INF/styleView_appointment.css"%></style>
@@ -39,36 +39,89 @@
                     </div>
                 </div>
             </div>
-           <!-- Manage , account nav -->
+            <!-- Manage , account nav -->
             <div class="top_acount_nav">
                 <nav>
-                    
-                      <a href="">Mange account</a> |
-                       <a href="">Log out</a>  
-                        <a href="">Log out</a>  
+
+                    <a href="">Mange account</a> |
+                    <a href="">Log out</a>  
+                    <a href="">Log out</a>  
                 </nav>
-             
+
             </div>
-           <div class="bg-img">
-            <div class="bg-img-h1">
-                <p>BOOK AN APPOINTMENT</p>
-                <p>Hello World andand </p>
+            <!--   -->
+            <div class="bg-img">
+                <div class="bg-img-h1">
+                    <p>BOOK AN APPOINTMENT</p>          
+                </div>
+
             </div>
+
+            <!-- appointment form-->
+            <form class ="app_info">
+                <div class="app_title">
+                    <h3><b>Appointment</b></h3>  
+                    Please fill in the form below
+
+                </div>
+                <div>
+                    <div class="app_type">
+                        <label> type</label> 
+                        <select >
+                            <option value="regular">Regular</option>
+                            <option value="annualPhysical">Annual Physical</option>
+                            <option value="urgenCare">Urgent Care</option>
+                            <option value="newPatine">New Patient Meeting</option>
+                        </select>
+                    </div>
+
+
+                    <div class="assigned_doctor">
+                        assigned Doctor
+                        <input> 
+                    </div>
+
+                    <div class="app_date">
+                        <label> appointment Date </label>  
+                        <input type="date" >
+                        <input type="submit">
+                    </div>
+                    <div class="app_time">
+                        <label>  time    </label>  
+                        <input type="time"  min ="08:00" max="22:00"   >
+                        <input type="submit">
+                    </div>
+                    <div class ="app_reason">
+                        Appointment Reason
+                        <input>
+                    </div>
+
+                    <button>continue</button>
+                    <button>cancel</button>
+
+                </div>
+
+
+
+            </form>   
+
+
+
         </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
