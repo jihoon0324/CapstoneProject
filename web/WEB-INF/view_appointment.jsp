@@ -64,43 +64,45 @@
                     Please fill in the form below
 
                 </div>
-                <div>
-                    <div class="app_type">
-                        <label> type</label> 
-                        <select >
-                            <option value="regular">Regular</option>
-                            <option value="annualPhysical">Annual Physical</option>
-                            <option value="urgenCare">Urgent Care</option>
-                            <option value="newPatine">New Patient Meeting</option>
-                        </select>
-                    </div>
+
+                <div class ="app_input_info">
+                    <div>
+                        <div class="app_type">
+                            <label> type</label> <br>
+                            <select >
+                                <option value="regular">Regular</option>
+                                <option value="annualPhysical">Annual Physical</option>
+                                <option value="urgenCare">Urgent Care</option>
+                                <option value="newPatine">New Patient Meeting</option>
+                            </select>
+                        </div>
 
 
-                    <div class="assigned_doctor">
-                        assigned Doctor
-                        <input> 
-                    </div>
+                        <div class="assigned_doctor">
+                           <label>   assigned Doctor  </label>  <br>
+                            <input> 
+                        </div>
 
-                    <div class="app_date">
-                        <label> appointment Date </label>  
-                        <input type="date" >
-                        <input type="submit">
+                        <div class="app_date">
+                            <label> appointment Date </label>  <br>
+                            <input type="date" >
+                       
+                        </div>
+                        <div class="app_time">
+                            <label>  time    </label>  <br>
+                            <input type="time"  min ="08:00" max="22:00"  size="6" >
+                         
+                        </div>
+                        <div class ="app_reason">
+                            <label>  Appointment Reason </label><br>
+                            <input class="textBox" type ="text" >
+                        </div>
+                        <div class="submitButton ">
+                            <button>continue</button>
+                            <button>cancel</button>
+                        </div>
                     </div>
-                    <div class="app_time">
-                        <label>  time    </label>  
-                        <input type="time"  min ="08:00" max="22:00"   >
-                        <input type="submit">
-                    </div>
-                    <div class ="app_reason">
-                        Appointment Reason
-                        <input>
-                    </div>
-
-                    <button>continue</button>
-                    <button>cancel</button>
-
                 </div>
-
 
 
             </form>   

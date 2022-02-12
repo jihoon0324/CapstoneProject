@@ -9,14 +9,14 @@ and open the template in the editor.
 */
 
 .bg-img {
-  background-image: url("img/img01.jpg");
-  margin-top: 137px;
-  min-height: 100px;
+    background-image: url("img/img01.jpg");
+    margin-top: 137px;
+    min-height: 100px;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .bg-img-h1{
@@ -26,52 +26,144 @@ and open the template in the editor.
 }
 
 .top_acount_nav {
-position: relative;
+    position: relative;
     width: 100%;
     z-index: 1;
     top:-34px;
-   list-style: none; 
-  float:left ;  
-    
+    list-style: none; 
+    float:left ;  
+
 }
 
 
 
 .current_location {
-  position: relative;
+    position: relative;
     width: 100%;
     z-index: 1;
     top:150px;
-   list-style: none; 
-   display:block;
+    list-style: none; 
+    display:block;
     text-align: center;
 }
 
 .centerText {
- position: absolute;
-top:150px;
-   width: 200px;
-  height: 400px; 
-  right:100px;
-  display: block;
+    position: absolute;
+    top:150px;
+    width: 200px;
+    height: 400px; 
+    right:100px;
+    display: block;
 }
 
 #current_image_backg{
-   width: 200px;
-  height: 400px; 
-   object-fit: none;
-  object-position: 5px 10%;
-  border: 5px solid red; 
+    width: 200px;
+    height: 400px; 
+    object-fit: none;
+    object-position: 5px 10%;
+    border: 5px solid red; 
 }
 
 .app_info {
- border-radius: 15px;
+    border-radius: 15px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+
+    height: 522px;
+    position: absolute;
+    top: 32%;
+    width: 61%;
+    left: 185px;
+}
+
+.app_title {
+    background-color: green;
+    text-align: center;   
+}
+
+.app_input_info {
+    background-color: blueviolet;
+    height: 502px;
+    position: absolute;
+    top: 11%;
+    width: 100%;
+    left: 0px;
+
+
+
+}
+
+.submitButton {
+
+    height: 10%; 
+    position: absolute;
+    top: 93%;
+    width: 100%;
+    left: 43%;
+
+    display:inline-block; 
+}
+
+.app_reason {
+    border-radius: 15px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    display:inline; 
+    height: 243px;
+    position: absolute;
+    top: 44%;
+    width: 39%;
+    left: 185px;
+}
+
+.textBox {
+ border-radius: 25px;
   border: 2px solid #73AD21;
   padding: 20px;
+  width: 200px;
+  height: 150px;
+}
 
-  height: 522px;
- position: absolute;
-  top: 32%;
-  width: 61%;
-  left: 185px;
+.app_time {
+    height: 10%; 
+    position: absolute;
+    top: 31%;
+    width: 100%;
+    left: 67%;
+
+    display:inline
+        ; 
+}
+
+.app_date {
+  height: 10%; 
+    position: absolute;
+    top: 31%;
+    width: 100%;
+    left: 13%;
+
+    display:inline
+        ; 
+}
+
+.assigned_doctor {
+   height: 10%; 
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    left: 67%;
+
+    display:inline
+        ; 
+}
+
+.app_type {
+  height: 10%; 
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    left: 13%;
+
+    display:inline
+        ; 
 }
