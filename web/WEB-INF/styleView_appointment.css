@@ -34,39 +34,22 @@ and open the template in the editor.
     float:left ;  
 
 }
+.b {
+    border: solid 1px black;
+ background-color: #017C83;
+}
+.container_form {
+    max-width: 49%;
+    margin-left: 28%;
+    margin-top: 10%;
 
+  
 
-
-.current_location {
-    position: relative;
-    width: 100%;
-    z-index: 1;
-    top:150px;
-    list-style: none; 
-    display:block;
-    text-align: center;
 }
 
-.centerText {
-    position: absolute;
-    top:150px;
-    width: 200px;
-    height: 400px; 
-    right:100px;
-    display: block;
-}
-
-#current_image_backg{
-    width: 200px;
-    height: 400px; 
-    object-fit: none;
-    object-position: 5px 10%;
-    border: 5px solid red; 
-}
-
-.app_info {
+.row {
     border-radius: 15px;
-    border: 2px solid #73AD21;
+ 
     padding: 20px;
 
     height: 522px;
@@ -74,48 +57,8 @@ and open the template in the editor.
     top: 32%;
     width: 61%;
     left: 185px;
+   
 }
-
-.app_title {
-    background-color: green;
-    text-align: center;   
-}
-
-.app_input_info {
-    background-color: blueviolet;
-    height: 502px;
-    position: absolute;
-    top: 11%;
-    width: 100%;
-    left: 0px;
-
-
-
-}
-
-.submitButton {
-
-    height: 10%; 
-    position: absolute;
-    top: 93%;
-    width: 100%;
-    left: 43%;
-
-    display:inline-block; 
-}
-
-.app_reason {
-    border-radius: 15px;
-    border: 2px solid #73AD21;
-    padding: 20px;
-    display:inline; 
-    height: 243px;
-    position: absolute;
-    top: 44%;
-    width: 39%;
-    left: 185px;
-}
-
 .textBox {
  border-radius: 25px;
   border: 2px solid #73AD21;
@@ -124,46 +67,25 @@ and open the template in the editor.
   height: 150px;
 }
 
-.app_time {
-    height: 10%; 
-    position: absolute;
-    top: 31%;
-    width: 100%;
-    left: 67%;
 
-    display:inline
-        ; 
+
+.app_reason {
+   margin: auto;
+  width: 34%;
+
+
 }
 
-.app_date {
-  height: 10%; 
-    position: absolute;
-    top: 31%;
-    width: 100%;
-    left: 13%;
-
-    display:inline
-        ; 
+.continue {
+   margin: auto;
+  width: 34%;
 }
 
-.assigned_doctor {
-   height: 10%; 
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    left: 67%;
-
-    display:inline
-        ; 
+.cancel {
+   margin: auto;
+  width: 34%;
 }
 
-.app_type {
-  height: 10%; 
-    position: absolute;
-    top: 10%;
-    width: 100%;
-    left: 13%;
-
-    display:inline
-        ; 
+.a{
+     border: solid 1px black;
 }

@@ -7,13 +7,22 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
         <style><%@include file="/WEB-INF/styleWelcomePage.css"%></style>
-        <style><%@include file="/WEB-INF/styleView_appointment.css"%></style>
+
+        <script src="/WEB-INF/view_appointment.js"></script>
+
         <title>View appointment</title>
+        <!-- boot5.0 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style><%@include file="/WEB-INF/styleView_appointment.css"%></style>
+
     </head>
+
     <body>
-        <div>
+
+        <div class="container-fluid ">
             <div class="fixed_position_welcome_page">
                 <div class="top_blue_div">
                 </div>
@@ -26,7 +35,8 @@
                             <nav>
                                 <ul>
                                     <li><a href="">Home</a></li>
-                                    <li><a class="drop-down-tab" href="">Appointment <i class="bi bi-caret-down-fill"></i></a>
+                                    <li><a class="drop-down-tab" href="">Appointment <i
+                                                class="bi bi-caret-down-fill"></i></a>
                                         <ul class="subnav">
                                             <li><a href="">Book Appointment</a></li>
                                             <li><a href="ViewAppointment">View Appointment</a></li>
@@ -39,78 +49,102 @@
                     </div>
                 </div>
             </div>
-            <!-- Manage , account nav -->
+        </div>
+
+        <div class="container-fluid">
             <div class="top_acount_nav">
                 <nav>
 
                     <a href="">Mange account</a> |
-                    <a href="">Log out</a>  
-                    <a href="">Log out</a>  
+                    <a href="">Log out</a>
+                    <a href="">Log out</a>
                 </nav>
 
             </div>
-            <!--   -->
+        </div>
+        <div class="container-fluid ">
             <div class="bg-img">
                 <div class="bg-img-h1">
-                    <p>BOOK AN APPOINTMENT</p>          
+                    <p>BOOK AN APPOINTMENT</p>
                 </div>
 
             </div>
+        </div>
 
-            <!-- appointment form-->
-            <form class ="app_info">
-                <div class="app_title">
-                    <h3><b>Appointment</b></h3>  
-                    Please fill in the form below
+        <div class="container_form">
+            <form class="app_info" >
+                <div class="row">
+                    <div class="col-md-4 col-lg-12 a ">
+                        <div class="app_title">
+                            <h3><b>Appointment</b></h3>
+                            Please fill in the form below
 
-                </div>
-
-                <div class ="app_input_info">
-                    <div>
+                        </div>
+                    </div>
+                 
+                    <div class="col-md-4 col-lg-6  b">
                         <div class="app_type">
-                            <label> type</label> <br>
-                            <select >
+                            <label> Type</label> <br>
+                            <select>
                                 <option value="regular">Regular</option>
                                 <option value="annualPhysical">Annual Physical</option>
                                 <option value="urgenCare">Urgent Care</option>
                                 <option value="newPatine">New Patient Meeting</option>
                             </select>
                         </div>
+                    </div>
 
 
+                    <div class="col-md-4 col-lg-6  b">
                         <div class="assigned_doctor">
-                           <label>   assigned Doctor  </label>  <br>
-                            <input> 
-                        </div>
-
-                        <div class="app_date">
-                            <label> appointment Date </label>  <br>
-                            <input type="date" >
-                       
-                        </div>
-                        <div class="app_time">
-                            <label>  time    </label>  <br>
-                            <input type="time"  min ="08:00" max="22:00"  size="6" >
-                         
-                        </div>
-                        <div class ="app_reason">
-                            <label>  Appointment Reason </label><br>
-                            <input class="textBox" type ="text" >
-                        </div>
-                        <div class="submitButton ">
-                            <button>continue</button>
-                            <button>cancel</button>
+                            <label> Assigned Doctor </label> <br>
+                            <input>
                         </div>
                     </div>
+                    <div class="col-md-4 col-lg-6  b">
+                        <div class="app_date">
+                            <label> Appointment Date </label> <br>
+                            <input type="date">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-6  b">
+                        <div class="app_time">
+                            <label> time </label> <br>
+                            <input type="text" style="width:200px;" onclick="time()">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-12  b">
+                        <div class="app_reason">
+                            <label> Appointment Reason </label><br>
+                            <input class="textBox" type="text">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-6  b">
+
+
+                       
+                            <div class="continue">
+                                <button>continue</button>
+                            </div>
+                        
+                     </div>  
+                    
+                      <div class="col-md-4 col-lg-6  b">
+                    
+                            <div class="cancel">
+                                <button>cancel</button>
+                            </div>
+                      
+                      </div>  
+               
                 </div>
 
-
-            </form>   
-
+            </form>
         </div>
 
-
-
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
+
 </html>
