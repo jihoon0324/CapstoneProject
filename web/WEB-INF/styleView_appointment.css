@@ -35,7 +35,7 @@ and open the template in the editor.
 
 }
 .b {
-    border: solid 1px black;
+  
  background-color: #017C83;
 }
 .container_form {
@@ -61,7 +61,7 @@ and open the template in the editor.
 }
 .textBox {
  border-radius: 25px;
-  border: 2px solid #73AD21;
+ 
   padding: 20px;
   width: 200px;
   height: 150px;
@@ -88,4 +88,30 @@ and open the template in the editor.
 
 .a{
      border: solid 1px black;
+}
+
+.app_type {
+ margin: auto;
+  width: 49%;
+}
+.app_date{
+    margin: auto;
+  width: 49%; 
+  
+    
+}
+input[type=text], select, textarea ,date, button {
+ 
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+input[type=date]{
+ 
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
 }

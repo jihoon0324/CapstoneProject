@@ -98,7 +98,7 @@
                     <div class="col-md-4 col-lg-6  b">
                         <div class="assigned_doctor">
                             <label> Assigned Doctor </label> <br>
-                            <input>
+                            <input type="text">
                         </div>
                     </div>
                     <div class="col-md-4 col-lg-6  b">
@@ -111,7 +111,7 @@
                     <div class="col-md-4 col-lg-6  b">
                         <div class="app_time">
                             <label> time </label> <br>
-                            <input type="text" style="width:200px;" onclick="time()">
+                            <input type="text"  onclick="time()">
 
                         </div>
                     </div>
