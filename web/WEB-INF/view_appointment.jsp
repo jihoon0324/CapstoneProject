@@ -6,8 +6,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
+      
         <style><%@include file="/WEB-INF/styleWelcomePage.css"%></style>
 
         <script src="/WEB-INF/view_appointment.js"></script>
@@ -22,31 +21,36 @@
 
     <body>
 
-        <div class="container-fluid ">
-            <div class="fixed_position_welcome_page">
-                <div class="top_blue_div">
-                </div>
-                <div class="topnav-wrapper">
-                    <div class="topnav">
-                        <div class="topnav-left">
-                            <a href="welcome"><img src="img/logo.png" height="88px"></a>
-                        </div>
-                        <div class="topnav-right">
-                            <nav>
-                                <ul>
-                                    <li><a href="">Home</a></li>
-                                    <li><a class="drop-down-tab" href="">Appointment <i
-                                                class="bi bi-caret-down-fill"></i></a>
-                                        <ul class="subnav">
-                                            <li><a href="">Book Appointment</a></li>
-                                            <li><a href="ViewAppointment">View Appointment</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="">Doctor schedule</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+        <div class="fixed_position_welcome_page">
+
+
+            <div class="top_blue_div">
+
+            </div>
+            <div class="topnav-wrapper">
+                <div class="topnav">
+                    <div class="topnav-left">
+
+
+                        <a href="welcome"><img src="img/logo.png" height="88px"></a>
                     </div>
+                    <div class="topnav-right">
+                        <nav>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a class="drop-down-tab" href="">Appointment <i class="bi bi-caret-down-fill"></i></a>
+                                    <ul class="subnav">
+                                        <li><a href="">Book Appointment</a></li>
+                                        <li><a href="ViewAppointment">View Appointment</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Doctor schedule</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+
+
                 </div>
             </div>
         </div>
@@ -65,84 +69,74 @@
         <div class="container-fluid ">
             <div class="bg-img">
                 <div class="bg-img-h1">
-                    <p>BOOK AN APPOINTMENT</p>
+                    <p>Appointment List</p>
                 </div>
 
             </div>
         </div>
 
-        <div class="container_form">
-            <form class="app_info" >
-                <div class="row">
-                    <div class="col-md-4 col-lg-12 a ">
-                        <div class="app_title">
-                            <h3><b>Appointment</b></h3>
-                            Please fill in the form below
 
-                        </div>
-                    </div>
-                 
-                    <div class="col-md-4 col-lg-6  b">
-                        <div class="app_type">
-                            <label> Type</label> <br>
-                            <select>
-                                <option value="regular">Regular</option>
-                                <option value="annualPhysical">Annual Physical</option>
-                                <option value="urgenCare">Urgent Care</option>
-                                <option value="newPatine">New Patient Meeting</option>
-                            </select>
-                        </div>
-                    </div>
+        <!-- histroy of the appointment -->
 
 
-                    <div class="col-md-4 col-lg-6  b">
-                        <div class="assigned_doctor">
-                            <label> Assigned Doctor </label> <br>
-                            <input type="text">
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-6  b">
-                        <div class="app_date">
-                            <label> Appointment Date </label> <br>
-                            <input type="date">
+        <div class="table-responsive " >
+            <table class="table caption-top table-dark ">
+                <caption>List of users</caption>
+                <thead>
+                    <tr>
+                        <th scope="col"> </th>
+                        <th scope="col" >  FIRST NAME</th>
+                        <th scope="col">  LAST NAME</th>
+                        <th scope="col"> APPOINTMENT TYPE</th>
+                        <th scope="col"> DATE</th>
+                        <th scope="col"> TIME</th>
+                        <th scope="col">Icon</th>
 
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-6  b">
-                        <div class="app_time">
-                            <label> time </label> <br>
-                            <input type="text"  onclick="time()">
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-active">
+                        <th > <input type="radio" ></th>
+                        <td> Marine </td>
+                        <td>  Garegin </td>
+                        <td> Physical</td>
+                        <td> Mon, 29 Nov</td>
+                        <td> 09:00 am</td>
+                        <td>>Icon</td>
+                    </tr>
+                    <tr>
+                        <th > <input type="radio" ></th>
+                        <td> Marine </td>
+                        <td>  Garegin </td>
+                        <td> Physical</td>
+                        <td> Mon, 29 Nov</td>
+                        <td> 09:00 am</td>
+                        <td>>Icon</td>
+                    </tr>
+                    <tr class="table-active">
+                        <th > <input type="radio" ></th>
+                        <td> Marine </td>
+                        <td>  Garegin </td>
+                        <td> Physical</td>
+                        <td> Mon, 29 Nov</td>
+                        <td> 09:00 am</td>
+                        <td>>Icon</td>
+                    </tr>
+                    <tr>
+                        <th > <input type="radio" ></th>
+                        <td> Marine </td>
+                        <td>  Garegin </td>
+                        <td> Physical</td>
+                        <td> Mon, 29 Nov</td>
+                        <td> 09:00 am</td>
+                        <td>>Icon</td>
+                    </tr>
 
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-12  b">
-                        <div class="app_reason">
-                            <label> Appointment Reason </label><br>
-                            <input class="textBox" type="text">
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-lg-6  b">
 
-
-                       
-                            <div class="continue">
-                                <button>continue</button>
-                            </div>
-                        
-                     </div>  
-                    
-                      <div class="col-md-4 col-lg-6  b">
-                    
-                            <div class="cancel">
-                                <button>cancel</button>
-                            </div>
-                      
-                      </div>  
-               
-                </div>
-
-            </form>
+                </tbody>
+            </table>
         </div>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
