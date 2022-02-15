@@ -77,20 +77,20 @@
 
 
         <!-- histroy of the appointment -->
-
+       
 
         <div class="table-responsive " >
-            <table class="table caption-top table-dark ">
+            <table class="table caption-top  ">
                 <caption>List of users</caption>
                 <thead>
                     <tr>
                         <th scope="col"> </th>
-                        <th scope="col" >  FIRST NAME</th>
-                        <th scope="col">  LAST NAME</th>
-                        <th scope="col"> APPOINTMENT TYPE</th>
-                        <th scope="col"> DATE</th>
-                        <th scope="col"> TIME</th>
-                        <th scope="col">Icon</th>
+                        <th scope="col" >  FIRST NAME <img src="img/triangle.png" width =15 height=15></th>
+                        <th scope="col">  LAST NAME <img src="img/triangle.png" width =15 height=15></th>
+                        <th scope="col"> APPOINTMENT TYPE <img src="img/triangle.png" width =15 height=15></th>
+                        <th scope="col"> DATE <img src="img/triangle.png" width =15 height=15></th>
+                        <th scope="col"> TIME <img src="img/triangle.png" width =15 height=15></th>
+                        <th scope="col"></th>
 
                     </tr>
                 </thead>
@@ -102,7 +102,8 @@
                         <td> Physical</td>
                         <td> Mon, 29 Nov</td>
                         <td> 09:00 am</td>
-                        <td>>Icon</td>
+                       <td> <img src="img/fax.png" width =15 height=15>
+                        <img src="img/information.png" width =15 height=15></td>
                     </tr>
                     <tr>
                         <th > <input type="radio" ></th>
@@ -111,7 +112,8 @@
                         <td> Physical</td>
                         <td> Mon, 29 Nov</td>
                         <td> 09:00 am</td>
-                        <td>>Icon</td>
+                        <td> <img src="img/fax.png" width =15 height=15>
+                        <img src="img/information.png" width =15 height=15></td>
                     </tr>
                     <tr class="table-active">
                         <th > <input type="radio" ></th>
@@ -120,7 +122,8 @@
                         <td> Physical</td>
                         <td> Mon, 29 Nov</td>
                         <td> 09:00 am</td>
-                        <td>>Icon</td>
+                        <td> <img src="img/fax.png" width =15 height=15>
+                        <img src="img/information.png" width =15 height=15></td>
                     </tr>
                     <tr>
                         <th > <input type="radio" ></th>
@@ -129,14 +132,15 @@
                         <td> Physical</td>
                         <td> Mon, 29 Nov</td>
                         <td> 09:00 am</td>
-                        <td>>Icon</td>
+                        <td> <img src="img/fax.png" width =15 height=15>
+                        <img src="img/information.png" width =15 height=15></td>
                     </tr>
 
 
                 </tbody>
             </table>
         </div>
-
+        
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>

@@ -37,3 +37,12 @@ and open the template in the editor.
 
 
 
+
+.fax {
+ background-image: url("img/fax.png");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    size: auto;
+}
